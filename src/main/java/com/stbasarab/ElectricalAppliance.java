@@ -79,15 +79,16 @@ public class ElectricalAppliance implements Comparable<ElectricalAppliance> {
     }
 
     /**
-     * Get information about the electrical appliance.
+     * Returns a string representation of the electrical appliance.
      *
-     * @return A string containing information about the electrical appliance.
+     * @return A string representation of the electrical appliance.
      */
-    protected String getInfo() {
-        return "name='" + name + '\'' +
+    @Override
+    public String toString() {
+        return "{ name='" + name + '\'' +
                 ", power=" + power +
                 ", electromagneticRadiation=" + electromagneticRadiation +
-                ", isTurnedOn=" + isTurnedOn;
+                ", isTurnedOn=" + isTurnedOn + " }";
     }
 
     /**
