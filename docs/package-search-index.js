@@ -1,1 +1,1 @@
-packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html"},{"l":"com.stbasarab"},{"l":"com.stbasarab.appliances"}];updateSearchResults();
+packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html"},{"l":"com.stbasarab"},{"l":"com.stbasarab.collections"}];updateSearchResults();

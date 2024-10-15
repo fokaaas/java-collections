@@ -2,8 +2,6 @@ package com.stbasarab;
 
 import com.stbasarab.collections.ElectricalApplianceList;
 
-import java.util.Arrays;
-
 /**
  * Main class to demonstrate the usage of the ElectricalApplianceList collection
  * with ElectricalAppliance instances.
@@ -30,22 +28,22 @@ public class Main {
 
         // Getting a specific appliance
         ElectricalAppliance appliance = applianceList.get(1);
-        System.out.println("Second appliance: " + appliance.toString());
+        System.out.println("\nSecond appliance: " + appliance.toString());
 
         // Replacing an appliance
         ElectricalAppliance oven = new ElectricalAppliance("Oven", 1500, 1.5);
         applianceList.set(1, oven);
-        System.out.println("After replacement: ");
+        System.out.println("\nAfter replacement: ");
         printApplianceList(applianceList);
 
         // Removing an appliance
         applianceList.remove(oven);
-        System.out.println("After removal: ");
+        System.out.println("\nAfter removal: ");
         printApplianceList(applianceList);
 
         // Clearing the list
         applianceList.clear();
-        System.out.println("After clearing, number of appliances: " + applianceList.size());
+        System.out.println("\nAfter clearing, number of appliances: " + applianceList.size());
     }
 
     private static void printApplianceList(ElectricalApplianceList applianceList) {
